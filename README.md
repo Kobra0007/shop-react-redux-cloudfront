@@ -1,5 +1,16 @@
 # React-shop-cloudfront
 
+# Task 2
+- [CloudFront link](https://d19smqexhtyy88.cloudfront.net/)
+- [S3 link](http://shop-bucket-ivan-hancharou-auto.s3-website-us-east-1.amazonaws.com/) - S3-website shows 403 Access Denied error due to bucket's policy
+- Manual part was successfully done, sources were created and destroyed as per task
+
+To reproduce on your machine:
+1. Clone repository
+2. Run `npm install`
+3. Run `npm run cloudfront:update:build:deploy`
+4. Get the app address with `npm run cloudfront:domainInfo`
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
